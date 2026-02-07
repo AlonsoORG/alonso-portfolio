@@ -1,6 +1,14 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
+import localFont from "next/font/local";
 import "./globals.css";
+
+const myFont = localFont({
+  // src: "./fonts/GT-Sectra-Fine-Regular.ttf",
+  src: "./fonts/GT-Sectra-Regular.ttf",
+  display: "swap",
+  variable: "--font-sectra",
+});
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -25,7 +33,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        // className={`${geistSans.variable} ${geistMono.variable} ${myFont.className} antialiased`}
+        className={` ${myFont.variable} antialiased`}
       >
         {children}
       </body>
