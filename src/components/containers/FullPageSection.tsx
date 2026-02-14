@@ -24,7 +24,7 @@ export default function FullPageSection({
       {
         threshold: 0.15, // Trigger when 15% of section is visible
         rootMargin: "0px",
-      }
+      },
     );
 
     if (sectionRef.current) {

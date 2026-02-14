@@ -55,3 +55,39 @@ body {
 .section-visible {
   animation: fadeSlideUp 0.8s ease-out forwards;
 }
+
+/* Elegant scrollbar styling */
+.scrollbar-elegant {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(49, 43, 34, 0.2) transparent;
+}
+
+.scrollbar-elegant::-webkit-scrollbar {
+  height: 6px;
+}
+
+.scrollbar-elegant::-webkit-scrollbar-track {
+  background: transparent;
+  margin: 0 2rem;
+}
+
+.scrollbar-elegant::-webkit-scrollbar-thumb {
+  background: rgba(49, 43, 34, 0.2);
+  border-radius: 100px;
+  transition: background 0.3s ease;
+}
+
+.scrollbar-elegant::-webkit-scrollbar-thumb:hover {
+  background: rgba(49, 43, 34, 0.4);
+}
+
+/* Hide scrollbar on mobile for cleaner look */
+@media (max-width: 768px) {
+  .scrollbar-elegant {
+    scrollbar-width: none;
+  }
+
+  .scrollbar-elegant::-webkit-scrollbar {
+    display: none;
+  }
+}

@@ -7,7 +7,8 @@ import { ContactSection } from "@/src/components/pages/ContactSection";
 
 export default function Home() {
   return (
-    <main className="flex flex-col min-h-screen font-sans w-screen">
+    <main className="flex flex-col min-h-screen font-sans w-full">
+      {/**/}
       <FullPageSection id="intro">
         <IntroSection />
       </FullPageSection>
