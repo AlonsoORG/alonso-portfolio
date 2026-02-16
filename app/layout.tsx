@@ -37,7 +37,6 @@ export default function RootLayout({
         // className={`${geistSans.variable} ${geistMono.variable} ${myFont.className} antialiased`}
         className={` ${myFont.variable} antialiased`}
       >
-        <Sidebar />
         {children}
       </body>
     </html>

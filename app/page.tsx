@@ -4,10 +4,12 @@ import { AboutSection } from "@/src/components/pages/AboutSection";
 import { WorkSection } from "@/src/components/pages/WorkSection";
 import { SkillsSection } from "@/src/components/pages/SkillsSection";
 import { ContactSection } from "@/src/components/pages/ContactSection";
+import { Sidebar } from "@/src/components/navigation/Sidebar";
 
 export default function Home() {
   return (
     <main className="flex flex-col min-h-screen font-sans w-full">
+      <Sidebar />
       {/**/}
       <FullPageSection id="intro">
         <IntroSection />
@@ -17,7 +19,7 @@ export default function Home() {
         <AboutSection />
       </FullPageSection>
 
-      <FullPageSection id="work">
+      <FullPageSection id="work" className="h-full bg-amber-900">
         <WorkSection />
       </FullPageSection>
 

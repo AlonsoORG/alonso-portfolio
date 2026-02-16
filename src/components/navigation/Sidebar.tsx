@@ -28,18 +28,24 @@ export const Sidebar = () => {
             onMouseLeave={() => setHoveredSection(null)}
           >
             <div
-              className={`rounded-full bg-foreground transition-all duration-300 ${
-                isActive
-                  ? "w-3 h-3 opacity-100"
-                  : "w-2 h-2 opacity-30 hover:opacity-60 hover:scale-110"
+              className={`flex items-center justify-center gap-3 text-foreground/40 group-hover:text-foreground transition-all duration-300 px-3 py-2 relative ${
+                isActive ? "font-bold text-foreground" : ""
               }`}
-            />
+            >
+              <div className="">{item.label}</div>
+              {/* Gradient border on bottom */}
+              <div
+                className={`absolute bottom-0 left-0 right-0 h-[2px] bg-gradient-to-r from-transparent via-gray-300 to-transparent transition-opacity duration-300 ${
+                  isActive ? "opacity-100" : "opacity-20 group-hover:opacity-40"
+                }`}
+              />
+            </div>
             {/* Tooltip */}
-            {isHovered && (
-              <span className="absolute left-6 top-1/2 -translate-y-1/2 whitespace-nowrap bg-foreground text-background px-3 py-1 rounded text-sm font-medium">
-                {item.label}
-              </span>
-            )}
+            {/* {isHovered && ( */}
+            {/*   <span className="absolute left-6 top-1/2 -translate-y-1/2 whitespace-nowrap bg-foreground text-background px-3 py-1 rounded text-sm font-medium"> */}
+            {/*     {item.label} */}
+            {/*   </span> */}
+            {/* )} */}
           </a>
         );
       })}
