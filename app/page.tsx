@@ -19,11 +19,11 @@ export default function Home() {
         <AboutSection />
       </FullPageSection>
 
-      <FullPageSection id="work" className="h-full bg-amber-900">
+      <FullPageSection id="work" className="!h-auto">
         <WorkSection />
       </FullPageSection>
 
-      <FullPageSection id="skills">
+      <FullPageSection id="skills" className="!h-auto">
         <SkillsSection />
       </FullPageSection>
 

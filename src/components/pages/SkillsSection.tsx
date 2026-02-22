@@ -39,7 +39,7 @@ export const SkillsSection = () => {
   ];
 
   return (
-    <div className="flex justify-center flex-col h-screen">
+    <div className="flex justify-center flex-col min-h-screen h-auto">
       <div className="flex flex-col items-center text-center w-full py-20 gap-10">
         <h2 className="text-6xl font-semibold tracking-tight">Skills</h2>
 
