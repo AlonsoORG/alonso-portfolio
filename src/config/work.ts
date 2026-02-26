@@ -5,7 +5,7 @@ export const experiences: IExperience[] = [
     id: 1,
     title: "Protectio Full-Stack Developer",
     description:
-      "Led development of scalable full-stack applications, supporting APIs and user/admin interfaces with Next.js and Express. Converted Figma designs into production-ready components, integrated external platforms (Salesforce, Zoom, Google Analytics, OpenAI), established CI/CD pipelines, and ensured reliability through unit, integration, and E2E testing of key workflows. ",
+      "Led development of scalable applications, supporting APIs and user/admin interfaces with Next.js and Express. Converted Figma designs into production-ready components, integrated external platforms (Salesforce, Zoom, Google Analytics, OpenAI), established CI/CD pipelines, and ensured reliability through unit, integration, and E2E testing of key workflows. ",
     company: "Protectio",
     date: "2024 - Present",
     imageSrc: "/work/protectio.png",
@@ -22,6 +22,7 @@ export const experiences: IExperience[] = [
       "Zoom API",
       "Google Analytics API",
       "OpenAI API",
+      "Redux",
     ],
   },
   {
@@ -33,7 +34,14 @@ export const experiences: IExperience[] = [
     date: "2025",
     imageSrc: "/work/healthyday.png",
 
-    techStack: ["Next.js"],
+    techStack: [
+      "Nest.js",
+      "Expo.js",
+      "React Native",
+      "TypeScript",
+      "Firebase",
+      "Redux",
+    ],
     // No detailPageUrl - this card won't have a detail page
   },
 

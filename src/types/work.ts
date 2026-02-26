@@ -7,5 +7,5 @@ export interface IExperience {
   imageSrc: string;
   detailPageUrl?: string; // Optional URL for detail page
   fulldescription?: string; // Optional full description for detail page
-  techStack: string[]; // Optional tech stack for detail page
+  techStack: string[];
 }
