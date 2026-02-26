@@ -3,49 +3,7 @@
 import { useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
 import ExperienceCard from "../ui/experienceCard";
-
-const experiences = [
-  {
-    id: 1,
-    title: "Protectio Full-Stack Developer",
-    description:
-      "Leading the design of the Protectio API backend, a critical component of the Onboard Wallet infrastructure. Focused on creating a seamless and secure experience for users while ensuring robust functionality and scalability. Integrating with third-party services and internal tools to provide a comprehensive solution for our users.",
-    company: "Protectio",
-    date: "2024 - Present",
-    imageSrc: "/profile.png",
-    detailPageUrl: "/work/protectio", // This card has a detail page
-  },
-  {
-    id: 2,
-    title: "Side Project - Healthy Day Mobile App",
-    description:
-      "Designed and developed a mobile application using Expo React Native that allows users to track their daily habits for android and IOS, set goals, and monitor their progress. Implemented features such as habit reminders, progress tracking, and data visualization to help users stay motivated and achieve their goals.",
-    company: "Kiloki",
-    date: "2025",
-    imageSrc: "/profile.png",
-    // No detailPageUrl - this card won't have a detail page
-  },
-
-  {
-    id: 3,
-    title: "Side Project - Healthy Day Mobile App",
-    description:
-      "Designed and developed a mobile application using Expo React Native that allows users to track their daily habits for android and IOS, set goals, and monitor their progress. Implemented features such as habit reminders, progress tracking, and data visualization to help users stay motivated and achieve their goals.",
-    company: "Kiloki",
-    date: "2025",
-    imageSrc: "/profile.png",
-  },
-
-  {
-    id: 4,
-    title: "Side Project - Healthy Day Mobile App",
-    description:
-      "Designed and developed a mobile application using Expo React Native that allows users to track their daily habits for android and IOS, set goals, and monitor their progress. Implemented features such as habit reminders, progress tracking, and data visualization to help users stay motivated and achieve their goals.",
-    company: "Kiloki",
-    date: "2025",
-    imageSrc: "/profile.png",
-  },
-];
+import { experiences } from "@/src/config/work";
 
 export const WorkSection = () => {
   const [hoveredCard, setHoveredCard] = useState<number | null>(null);
@@ -162,6 +120,7 @@ export const WorkSection = () => {
                       company={experience.company}
                       date={experience.date}
                       imageSrc={experience.imageSrc}
+                      techStack={experience.techStack}
                     />
                   </div>
                 );

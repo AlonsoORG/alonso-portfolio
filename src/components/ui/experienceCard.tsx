@@ -1,4 +1,6 @@
 import Image from "next/image";
+import { Badge } from "@/components/ui/badge";
+import { IExperience } from "@/src/types/work";
 
 export default function ExperienceCard({
   id,
@@ -7,14 +9,8 @@ export default function ExperienceCard({
   company,
   date,
   imageSrc,
-}: {
-  id: number;
-  title: string;
-  description: string;
-  company: string;
-  date: string;
-  imageSrc: string;
-}) {
+  techStack,
+}: IExperience) {
   return (
     <div
       className="border border-foreground/20 rounded-4xl p-6 text-left bg-white/40 backdrop-blur-sm"
@@ -28,6 +24,23 @@ export default function ExperienceCard({
       <p className="text-sm text-foreground/60">
         {company} - {date}
       </p>
+      <div className="mt-2 flex flex-wrap gap-2">
+        {techStack.slice(0, 3).map((tech) => (
+          <Badge key={tech} className="text-lg">
+            {tech}
+          </Badge>
+        ))}
+        {techStack.length > 3 && (
+          <Badge variant="outline" className="text-lg">
+            +{techStack.length - 3} more
+          </Badge>
+        )}
+
+        {/* <Badge className="text-lg">Next.js</Badge> */}
+        {/* <Badge variant="secondary">Secondary</Badge> */}
+        {/* <Badge variant="destructive">Destructive</Badge> */}
+        {/* <Badge variant="outline">Outline</Badge> */}
+      </div>
     </div>
   );
 }
