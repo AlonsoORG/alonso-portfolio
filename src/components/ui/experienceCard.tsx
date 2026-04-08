@@ -13,7 +13,7 @@ export default function ExperienceCard({
 }: IExperience) {
   return (
     <div
-      className="border border-foreground/20 rounded-4xl p-6 text-left bg-white/40 backdrop-blur-sm"
+      className="border border-foreground/20 rounded-4xl p-6 text-left bg-white/80 backdrop-blur-sm"
       id={id.toString()}
     >
       <div className="hidden md:flex items-center justify-center mb-4 ">

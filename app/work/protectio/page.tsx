@@ -75,6 +75,14 @@ export default function ProtectioPage() {
                 and significantly <strong>reducing production bugs</strong>
               </span>
             </li>
+
+            <li className="flex gap-3">
+              <span className="text-2xl">•</span>
+              <span>
+                Integrate with Google Cloud ETL tools big query to unify
+                multiple sources of data.
+              </span>
+            </li>
           </ul>
         </section>
 
