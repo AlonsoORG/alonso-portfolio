@@ -83,6 +83,76 @@ export default function ProtectioPage() {
                 multiple sources of data.
               </span>
             </li>
+
+            <li className="flex gap-3">
+              <span className="text-2xl">•</span>
+              <span>
+                Led the development of a full-stack admin platform using
+                Express, TypeORM, React, Next.js, Node.js, MySQL, and React
+                Query. Integrated the Zoom API and Google Analytics to analyze
+                user behavior and optimize the sales funnel, increasing user
+                engagement by 20% and revenue by 15%.
+              </span>
+            </li>
+
+            <li className="flex gap-3">
+              <span className="text-2xl">•</span>
+              <span>
+                Designed and implemented a comprehensive testing strategy using
+                Jest, Playwright, and React Testing Library, achieving 90% test
+                coverage and significantly{" "}
+                <strong>reducing production bugs</strong> while improving
+                reliability and monitoring.
+              </span>
+            </li>
+
+            <li className="flex gap-3">
+              <span className="text-2xl">•</span>
+              <span>
+                Built and maintained a CI/CD pipeline with GitHub Actions,
+                automating testing, linting, and deployments, reducing
+                deployment time by 50% and improving code quality and release
+                stability.
+              </span>
+            </li>
+
+            <li className="flex gap-3">
+              <span className="text-2xl">•</span>
+              <span>
+                Developed a high-performance data visualization system with ETL
+                pipelines integrating Salesforce and Google BigQuery,
+                streamlining data workflows and enabling external stakeholders
+                to access customized analytical reports.
+              </span>
+            </li>
+
+            <li className="flex gap-3">
+              <span className="text-2xl">•</span>
+              <span>
+                Implemented scalable microservices using Node.js, AWS Lambda,
+                and Firebase Functions, architecting for fault tolerance and
+                automatic scaling to support growing platform demands.
+              </span>
+            </li>
+
+            <li className="flex gap-3">
+              <span className="text-2xl">•</span>
+              <span>
+                Engineered a dynamic form system using React, React Query, and
+                Zod validation to support complex multi-step workflows,
+                improving conversion tracking through Google Analytics
+                integration.
+              </span>
+            </li>
+
+            <li className="flex gap-3">
+              <span className="text-2xl">•</span>
+              <span>
+                Built an observability system using BullMQ to collect logs,
+                uptime, and tracing data, processing over 1M events and
+                deploying monitoring dashboards via Google Cloud Run.
+              </span>
+            </li>
           </ul>
         </section>
 
