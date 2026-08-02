@@ -8,6 +8,9 @@ export const SkillsSection = () => {
         "Google Analytics",
         "SEO Best Practices",
         "Google Tag Manager",
+        "A/B Testing",
+        "User Experience (UX) Design",
+        "User Interface (UI) Design",
       ],
     },
     {
@@ -20,6 +23,9 @@ export const SkillsSection = () => {
         "Express",
         "Nest.js",
         "SQL and No SQL Databases",
+        "GraphQL",
+        "RESTful APIs",
+        "Web Performance Optimization",
       ],
     },
     {
@@ -30,6 +36,8 @@ export const SkillsSection = () => {
         "CI/CD Pipelines",
         "E2E Testing",
         "Jest",
+        "Cypress",
+        "Playwright",
       ],
     },
     {

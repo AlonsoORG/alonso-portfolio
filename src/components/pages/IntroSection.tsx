@@ -16,8 +16,7 @@ export const IntroSection = () => {
           </h1>
         </div>
         <p className="max-w-md text-2xl leading-8">
-          Full-Stack Developer passionate about crafting efficient and scalable
-          web applications.
+          Full-Stack Developer passionate about crafting efficient and scalable applications.
         </p>
       </div>
       <div className="flex flex-1 gap-4 text-base font-medium  items-center justify-center relative">
