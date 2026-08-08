@@ -27,6 +27,8 @@ export const IntroSection = () => {
             alt="Vercel logomark"
             width={900}
             height={186}
+
+
           />
         </div>
       </div>
