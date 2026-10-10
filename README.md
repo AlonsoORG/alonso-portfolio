@@ -1,5 +1,15 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
+## ENV Variables
+
+These can be getting here
+
+https://supabase.com/dashboard/project/yhngzsuxdhurjcvaqlxh/database/settings?showConnect=true
+
+- NEXT_PUBLIC_SUPABASE_URL
+- NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY
+
+
 ## How to Start
 
 First, run the development server:
