@@ -11,25 +11,27 @@ export default function Home() {
     <main className="flex flex-col min-h-screen font-sans w-full">
       <Sidebar />
       {/**/}
-      <FullPageSection id="intro">
-        <IntroSection />
-      </FullPageSection>
+      <div className="sm:pl-24 lg:pl-32 ">
+        <FullPageSection id="intro">
+          <IntroSection />
+        </FullPageSection>
 
-      <FullPageSection id="about">
-        <AboutSection />
-      </FullPageSection>
+        <FullPageSection id="about">
+          <AboutSection />
+        </FullPageSection>
 
-      <FullPageSection id="work" className="!h-auto">
-        <WorkSection />
-      </FullPageSection>
+        <FullPageSection id="work" className="!h-auto">
+          <WorkSection />
+        </FullPageSection>
 
-      <FullPageSection id="skills" className="!h-auto">
-        <SkillsSection />
-      </FullPageSection>
+        <FullPageSection id="skills" className="!h-auto">
+          <SkillsSection />
+        </FullPageSection>
 
-      <FullPageSection id="contact">
-        <ContactSection />
-      </FullPageSection>
+        <FullPageSection id="contact">
+          <ContactSection />
+        </FullPageSection>
+      </div>
     </main>
   );
 }
