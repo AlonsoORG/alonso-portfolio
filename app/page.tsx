@@ -10,8 +10,7 @@ export default function Home() {
   return (
     <main className="flex flex-col min-h-screen font-sans w-full">
       <Sidebar />
-      {/**/}
-      <div className="sm:pl-24 lg:pl-32 ">
+      <div className="sm:pl-24 md:pl-32 lg:pl-0">
         <FullPageSection id="intro">
           <IntroSection />
         </FullPageSection>
@@ -20,11 +19,11 @@ export default function Home() {
           <AboutSection />
         </FullPageSection>
 
-        <FullPageSection id="work" className="!h-auto">
+        <FullPageSection id="work" className="h-auto!">
           <WorkSection />
         </FullPageSection>
 
-        <FullPageSection id="skills" className="!h-auto">
+        <FullPageSection id="skills" className="h-auto!">
           <SkillsSection />
         </FullPageSection>
 

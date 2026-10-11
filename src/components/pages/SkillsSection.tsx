@@ -57,7 +57,7 @@ export const SkillsSection = () => {
             and honed over the years:
           </p>
         </div>
-        <div className="max-w-4xl grid gap-8 md:grid-cols-2 w-full">
+        <div className="max-w-2xl grid gap-8 md:grid-cols-2 w-full">
           {skills.map((skillGroup) => (
             <div key={skillGroup.category} className="text-left">
               <h3 className="text-2xl font-semibold mb-4">
