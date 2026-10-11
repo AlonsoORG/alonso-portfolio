@@ -9,6 +9,10 @@ https://supabase.com/dashboard/project/yhngzsuxdhurjcvaqlxh/database/settings?sh
 - NEXT_PUBLIC_SUPABASE_URL=https://yhngzsuxdhurjcvaqlxh.supabase.co
 - NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY
 
+## How to add New Work Entry
+
+- add a new entry to config/work.ts
+
 
 ## How to Start
 

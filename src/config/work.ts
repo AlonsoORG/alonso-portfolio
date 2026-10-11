@@ -42,7 +42,25 @@ export const experiences: IExperience[] = [
       "Firebase",
       "Redux",
     ],
-    // No detailPageUrl - this card won't have a detail page
+  },
+
+  {
+    id: 3,
+    title: "Enrollment resources",
+    description:
+      "Designed and developed a mobile application using Expo React Native that allows users to track their daily habits for android and IOS, set goals, and monitor their progress. Implemented features such as habit reminders, progress tracking, and data visualization to help users stay motivated and achieve their goals.",
+    company: "Kiloki",
+    date: "2025",
+    imageSrc: "/work/healthyday.png",
+
+    techStack: [
+      "Nest.js",
+      "Expo.js",
+      "React Native",
+      "TypeScript",
+      "Firebase",
+      "Redux",
+    ],
   },
 
   // {
