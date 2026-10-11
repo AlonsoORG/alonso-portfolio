@@ -6,7 +6,7 @@ These can be getting here
 
 https://supabase.com/dashboard/project/yhngzsuxdhurjcvaqlxh/database/settings?showConnect=true
 
-- NEXT_PUBLIC_SUPABASE_URL
+- NEXT_PUBLIC_SUPABASE_URL=https://yhngzsuxdhurjcvaqlxh.supabase.co
 - NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY
 
 
