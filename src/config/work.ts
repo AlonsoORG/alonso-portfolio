@@ -46,12 +46,12 @@ export const experiences: IExperience[] = [
 
   {
     id: 3,
-    title: "Enrollment resources",
+    title: "Full-Stack Developer",
     description:
       "Designed and developed a mobile application using Expo React Native that allows users to track their daily habits for android and IOS, set goals, and monitor their progress. Implemented features such as habit reminders, progress tracking, and data visualization to help users stay motivated and achieve their goals.",
-    company: "Kiloki",
+    company: "Enrollment Resources",
     date: "2025",
-    imageSrc: "/work/healthyday.png",
+    imageSrc: "/work/er.png",
 
     techStack: [
       "Nest.js",
