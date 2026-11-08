@@ -1,10 +1,10 @@
 export const ContactSection = () => {
   return (
     <div className="flex justify-center flex-col h-screen">
-      <div className="flex flex-col items-center text-center w-full py-20 gap-10">
+      <div className="flex flex-col items-center text-center w-full py-10 md:py-20 gap-10">
         <h2 className="text-6xl font-semibold tracking-tight">Get in Touch</h2>
-        <div className="max-w-2xl space-y-8">
-          <p className="text-xl leading-8">
+        <div className="max-w-2xl space-y-2 md:space-y-8">
+          <p className="text-lg md:text-xl leading-8">
             I&apos;m always interested in hearing about new projects and
             opportunities. Whether you have a question or just want to say hi,
             feel free to reach out.
