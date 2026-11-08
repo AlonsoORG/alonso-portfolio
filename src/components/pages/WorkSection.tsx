@@ -55,7 +55,7 @@ export const WorkSection = () => {
 
   return (
     <div className="flex justify-center flex-col min-h-[150vh] py-20">
-      <div className="flex flex-col justify-center items-center text-center w-full gap-10 pb-20">
+      <div className="flex flex-col justify-center items-center text-center w-full gap-10 pb-20 ">
         <h2 className="text-6xl font-semibold tracking-tight">
           Work & Projects
         </h2>
@@ -66,9 +66,9 @@ export const WorkSection = () => {
           </p>
         </div>
 
-        <div className="w-full max-w-6xl">
-          <div className="w-full overflow-x-auto scrollbar-elegant scroll-smooth overflow-y-hidden">
-            <div className="relative h-[600px] md:h-[800px] flex items-center justify-center  px-8 md:px-16">
+        <div className="w-full max-w-6xl   ">
+          <div className="w-full overflow-x-auto overflow-y-hidden p-4 scrollbar-elegant scroll-smooth ">
+            <div className="relative h-[600px] md:h-[800px] flex items-center justify-center  px-4 md:px-16 ml-8">
               {experiences.map((experience, index) => {
                 const isActive =
                   hoveredCard === experience.id ||

@@ -42,7 +42,7 @@ export default function FullPageSection({
     <section
       ref={sectionRef}
       id={id}
-      className={`flex min-h-screen h-screen w-full flex-col px-8 mx-auto ${className} ${
+      className={`flex min-h-screen h-screen w-full flex-col px-4 mx-auto ${className} ${
         isVisible ? "section-visible" : "section-hidden"
       }`}
     >
