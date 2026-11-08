@@ -21,7 +21,7 @@ export const AboutSection = () => {
         <div className="max-w-2xl space-y-6">
 
           <div
-            className="text-xl leading-8"
+            className="text-lg md:text-xl leading-6 md:leading-8 "
             dangerouslySetInnerHTML={{ __html: about_me }}
           >
 
