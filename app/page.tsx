@@ -8,7 +8,17 @@ import { Sidebar } from "@/src/components/navigation/Sidebar";
 
 export default function Home() {
   return (
-    <main className="flex flex-col min-h-screen font-sans w-full">
+    <main className="relative flex min-h-screen w-full flex-col font-sans">
+      <video
+        className="pointer-events-none absolute inset-0 -z-10 h-full w-full object-cover"
+        autoPlay
+        loop
+        muted
+        playsInline
+        aria-hidden="true"
+      >
+        <source src="/scene.webm" type="video/webm" />
+      </video>
       <Sidebar />
       <div className="sm:pl-24 md:pl-32 lg:pl-0">
         <FullPageSection id="intro">

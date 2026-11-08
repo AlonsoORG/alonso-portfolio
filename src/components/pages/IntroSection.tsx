@@ -20,17 +20,25 @@ export const IntroSection = () => {
         </p>
       </div>
       <div className="flex flex-1 gap-4 text-base font-medium  items-center justify-center relative">
-        <div className="absolute -bottom-30">
-          <Image
-            className=""
-            src="/profile_back.png"
-            alt="Vercel logomark"
-            width={900}
-            height={186}
+        <Image
+          className="h-auto w-full"
+          src="/alonso_display.svg"
+          alt="Alonso Huayta Title"
+          width={200}
+          height={100}
+        />
 
-
-          />
-        </div>
+      {/*   <div className="absolute -bottom-30"> */}
+      {/*     <Image */}
+      {/*       className="" */}
+      {/*       src="/profile_back.png" */}
+      {/*       alt="Vercel logomark" */}
+      {/*       width={900} */}
+      {/*       height={186} */}
+      {/**/}
+      {/**/}
+      {/*     /> */}
+      {/*   </div> */}
       </div>
     </div>
   );

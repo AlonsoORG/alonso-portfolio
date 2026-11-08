@@ -9,7 +9,7 @@ export const AboutSection = () => {
   if (!alonsoData) {
     return <div>Loading...</div>;
   }
-  
+
   const { about_me } = alonsoData;
 
 
@@ -20,13 +20,12 @@ export const AboutSection = () => {
         <h2 className="text-6xl font-semibold tracking-tight">About Me</h2>
         <div className="max-w-2xl space-y-6">
 
-<div
-          className="text-xl leading-8"
-          dangerouslySetInnerHTML={{ __html: about_me }}
+          <div
+            className="text-xl leading-8"
+            dangerouslySetInnerHTML={{ __html: about_me }}
+          >
 
-        >
-
-        </div>
+          </div>
 
         </div>
       </div>
