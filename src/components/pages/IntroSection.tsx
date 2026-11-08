@@ -3,19 +3,20 @@ import Image from "next/image";
 export const IntroSection = () => {
   return (
     <div className="flex justify-center flex-col h-screen">
-      <div className="flex flex-3 w-full items-center justify-center md:grid md:grid-cols-2">
-        {/* <div className="flex flex-col items-center gap-6"> */}
-        {/* <Image */}
-        {/*   src="/profile.png" */}
-        {/*   alt="Vercel logomark" */}
-        {/*   width={186} */}
-        {/*   height={186} */}
-        {/* /> */}
-        {/*   <h1 className="text-8xl font-semibold  tracking-tight"> */}
-        {/*     Alonso Huayta */}
-        {/*   </h1> */}
-        {/* </div> */}
-        <p className="w-full max-w-md text-center text-2xl leading-8 md:col-start-2 md:justify-self-start md:text-left">
+      <div className="flex flex-3 flex-col w-full items-center justify-center md:grid md:grid-cols-2 gap-3">
+        <div className="w-full flex-col items-center gap-3 flex">
+          <Image
+            className="h-auto w-[120px] md:w-[180px]"
+            src="/profile.png"
+            alt="Vercel logomark"
+            width={120}
+            height={120}
+          />
+          {/*   <h1 className="text-8xl font-semibold  tracking-tight"> */}
+          {/*     Alonso Huayta */}
+          {/*   </h1> */}
+        </div>
+        <p className="w-full max-w-md text-center text-xl md:text-2xl leading-8 md:col-start-2 md:justify-self-start md:text-left">
           Full-Stack Developer passionate about crafting efficient and scalable applications.
         </p>
       </div>
