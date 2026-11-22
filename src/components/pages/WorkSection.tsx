@@ -55,15 +55,17 @@ export const WorkSection = () => {
 
   return (
     <div className="flex justify-center flex-col min-h-[150vh] py-20">
-      <div className="flex flex-col justify-center items-center text-center w-full gap-10 pb-20 ">
-        <h2 className="text-6xl font-semibold tracking-tight">
-          Work & Projects
-        </h2>
+      <div className=" flex flex-col items-center justify-center text-center w-full gap-10 ">
+        <div>
+          <h2 className="text-6xl font-semibold tracking-tight">
+            Work & Projects
+          </h2>
 
-        <div className="max-w-2xl space-y-6">
-          <p className="text-xl leading-8">
-            Here are some of the projects I&apos;ve worked on
-          </p>
+          <div className="max-w-2xl">
+            <p className="text-xl leading-8">
+              Here are some of the projects I&apos;ve worked on
+            </p>
+          </div>
         </div>
 
         <div className="w-full max-w-6xl   ">

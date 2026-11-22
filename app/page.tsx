@@ -5,6 +5,7 @@ import { WorkSection } from "@/src/components/pages/WorkSection";
 import { SkillsSection } from "@/src/components/pages/SkillsSection";
 import { ContactSection } from "@/src/components/pages/ContactSection";
 import { Sidebar } from "@/src/components/navigation/Sidebar";
+import { ChatbotSection } from "@/src/components/pages/ChatBot";
 
 export default function Home() {
   return (
@@ -27,6 +28,10 @@ export default function Home() {
 
         <FullPageSection id="about">
           <AboutSection />
+        </FullPageSection>
+
+        <FullPageSection id="chatbot">
+          <ChatbotSection />
         </FullPageSection>
 
         <FullPageSection id="work" className="h-auto!">
